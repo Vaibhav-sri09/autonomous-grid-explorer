@@ -1,0 +1,364 @@
+[
+  {
+    "step": 1,
+    "action": "SCAN",
+    "reason": "Scanning for EVE's signal.",
+    "battery_before": 18,
+    "position": [
+      0,
+      0
+    ],
+    "observation": {
+      "found": false,
+      "signal_distance": 7,
+      "message": "Signal received: EVE is 7 step(s) away."
+    },
+    "battery_after": 17,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 2,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 17,
+    "position": [
+      0,
+      1
+    ],
+    "observation": "WALL-E moved to (0, 1)",
+    "battery_after": 16,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 3,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 16,
+    "position": [
+      0,
+      2
+    ],
+    "observation": "WALL-E moved to (0, 2)",
+    "battery_after": 15,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 4,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 15,
+    "position": [
+      0,
+      3
+    ],
+    "observation": "WALL-E moved to (0, 3)",
+    "battery_after": 14,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 5,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 14,
+    "position": [
+      1,
+      3
+    ],
+    "observation": "WALL-E moved to (1, 3)",
+    "battery_after": 13,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 6,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 13,
+    "position": [
+      2,
+      3
+    ],
+    "observation": "WALL-E moved to (2, 3)",
+    "battery_after": 12,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 7,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 12,
+    "position": [
+      3,
+      3
+    ],
+    "observation": "WALL-E moved to (3, 3)",
+    "battery_after": 11,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 8,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (3, 4).",
+    "battery_before": 11,
+    "position": [
+      3,
+      4
+    ],
+    "observation": "WALL-E moved to (3, 4)",
+    "battery_after": 10,
+    "remaining_candidates": 2,
+    "confidence_pct": 50.0
+  },
+  {
+    "step": 9,
+    "action": "SCAN",
+    "reason": "Scanning for EVE's signal.",
+    "battery_before": 10,
+    "position": [
+      3,
+      4
+    ],
+    "observation": {
+      "found": false,
+      "signal_distance": 2,
+      "message": "Signal received: EVE is 2 step(s) away."
+    },
+    "battery_after": 9,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 10,
+    "action": "MOVE",
+    "reason": "Low battery (9). Returning to charger with safety reserve.",
+    "battery_before": 9,
+    "position": [
+      2,
+      4
+    ],
+    "observation": "WALL-E moved to (2, 4)",
+    "battery_after": 8,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 11,
+    "action": "MOVE",
+    "reason": "Low battery (8). Returning to charger with safety reserve.",
+    "battery_before": 8,
+    "position": [
+      1,
+      4
+    ],
+    "observation": "WALL-E moved to (1, 4)",
+    "battery_after": 7,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 12,
+    "action": "MOVE",
+    "reason": "Low battery (7). Returning to charger with safety reserve.",
+    "battery_before": 7,
+    "position": [
+      0,
+      4
+    ],
+    "observation": "WALL-E moved to (0, 4)",
+    "battery_after": 6,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 13,
+    "action": "MOVE",
+    "reason": "Low battery (6). Returning to charger with safety reserve.",
+    "battery_before": 6,
+    "position": [
+      0,
+      3
+    ],
+    "observation": "WALL-E moved to (0, 3)",
+    "battery_after": 5,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 14,
+    "action": "MOVE",
+    "reason": "Low battery (5). Returning to charger with safety reserve.",
+    "battery_before": 5,
+    "position": [
+      0,
+      2
+    ],
+    "observation": "WALL-E moved to (0, 2)",
+    "battery_after": 4,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 15,
+    "action": "MOVE",
+    "reason": "Low battery (4). Returning to charger with safety reserve.",
+    "battery_before": 4,
+    "position": [
+      0,
+      1
+    ],
+    "observation": "WALL-E moved to (0, 1)",
+    "battery_after": 3,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 16,
+    "action": "MOVE",
+    "reason": "Low battery (3). Returning to charger with safety reserve.",
+    "battery_before": 3,
+    "position": [
+      0,
+      0
+    ],
+    "observation": "WALL-E moved to (0, 0)",
+    "battery_after": 2,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 17,
+    "action": "RECHARGE",
+    "reason": "Docked at station. Recharging battery (2/18) to full.",
+    "battery_before": 2,
+    "position": [
+      0,
+      0
+    ],
+    "observation": "WALL-E docked at (0, 0) and fully recharged!",
+    "battery_after": 18,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 18,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 18,
+    "position": [
+      1,
+      0
+    ],
+    "observation": "WALL-E moved to (1, 0)",
+    "battery_after": 17,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 19,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 17,
+    "position": [
+      2,
+      0
+    ],
+    "observation": "WALL-E moved to (2, 0)",
+    "battery_after": 16,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 20,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 16,
+    "position": [
+      3,
+      0
+    ],
+    "observation": "WALL-E moved to (3, 0)",
+    "battery_after": 15,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 21,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 15,
+    "position": [
+      4,
+      0
+    ],
+    "observation": "WALL-E moved to (4, 0)",
+    "battery_after": 14,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 22,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 14,
+    "position": [
+      4,
+      1
+    ],
+    "observation": "WALL-E moved to (4, 1)",
+    "battery_after": 13,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 23,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 13,
+    "position": [
+      4,
+      2
+    ],
+    "observation": "WALL-E moved to (4, 2)",
+    "battery_after": 12,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 24,
+    "action": "MOVE",
+    "reason": "Advancing toward candidate (4, 3).",
+    "battery_before": 12,
+    "position": [
+      4,
+      3
+    ],
+    "observation": "WALL-E moved to (4, 3)",
+    "battery_after": 11,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  },
+  {
+    "step": 25,
+    "action": "SCAN",
+    "reason": "Scanning for EVE's signal.",
+    "battery_before": 11,
+    "position": [
+      4,
+      3
+    ],
+    "observation": {
+      "found": true,
+      "signal_distance": 0,
+      "message": "Direct signal! EVE is right here!"
+    },
+    "battery_after": 10,
+    "remaining_candidates": 1,
+    "confidence_pct": 100.0
+  }
+]

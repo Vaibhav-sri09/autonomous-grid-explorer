@@ -1,0 +1,34 @@
+{
+  "mission_name": "WALL-E and EVE's Signal",
+  "target_found": true,
+  "termination_reason": "EVE found!",
+  "total_steps": 25,
+  "moves_count": 21,
+  "scans_count": 3,
+  "recharges_count": 1,
+  "final_battery": 10,
+  "clues_collected_count": 2,
+  "clues": [
+    {
+      "scan_pos": [
+        0,
+        0
+      ],
+      "distance": 7
+    },
+    {
+      "scan_pos": [
+        3,
+        4
+      ],
+      "distance": 2
+    }
+  ],
+  "remaining_possible_locations": [
+    [
+      4,
+      3
+    ]
+  ],
+  "final_confidence_pct": 100.0
+}

@@ -1,0 +1,12 @@
+{
+  "grid_size": [5, 5],
+  "walle_start": [0, 0],
+  "charging_station": [0, 0],
+  "max_battery": 18,
+  "obstacles": [
+    [1, 2],
+    [2, 2],
+    [3, 2]
+  ],
+  "eve_hidden_position": [4, 3]
+}
